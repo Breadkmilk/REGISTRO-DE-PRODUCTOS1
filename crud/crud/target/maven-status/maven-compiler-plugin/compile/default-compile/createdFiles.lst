@@ -1,0 +1,6 @@
+Controlador\ProductoServlet.class
+senati\pe\crud\resources\JakartaEE10Resource.class
+senati\pe\crud\JakartaRestConfiguration.class
+modelo\Producto.class
+modelo\Conexion.class
+modelo\ProductoDAO.class

@@ -1,0 +1,78 @@
+/* BODY */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #84939C;
+}
+
+/* CONTENEDOR GENERAL */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* TITULO */
+h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* FORMULARIO */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* INPUTS */
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* INPUT FULL */
+.full {
+    grid-column: span 2;
+}
+
+/* BOTON */
+button {
+    grid-column: span 2;
+    padding: 12px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #219150;
+}
+
+/* VOLVER */
+.volver {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: green;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    .full {
+        grid-column: span 1;
+    }
+}
+
